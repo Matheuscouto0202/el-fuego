@@ -1,0 +1,250 @@
+{
+  "restaurant": {
+    "name": "El Fuego",
+    "tagline": "Mexican Street Grill",
+    "description": "O melhor Mexican grill da cidade",
+    "phone": "5511996185751",
+    "deliveryFee": 8.00,
+    "minOrder": 25.00,
+    "estimatedTime": {
+      "delivery": "30–45 min",
+      "pickup": "15–20 min"
+    },
+    "address": "Av. Paulista, 1000 — São Paulo, SP",
+    "hours": "Ter–Dom: 11h às 23h"
+  },
+  "categories": [
+    { "id": "destaques", "name": "Destaques", "emoji": "⭐" },
+    { "id": "combos", "name": "Combos Mexicanos", "emoji": "🌮" },
+    { "id": "tacos", "name": "Tacos", "emoji": "🌮" },
+    { "id": "burritos", "name": "Burritos", "emoji": "🌯" },
+    { "id": "quesadillas", "name": "Quesadillas", "emoji": "🫓" },
+    { "id": "nachos", "name": "Nachos", "emoji": "🧀" },
+    { "id": "bebidas", "name": "Bebidas", "emoji": "🥤" }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "categoryId": "destaques",
+      "name": "Taco Supremo",
+      "description": "Tortilla macia, carne bovina temperada na brasa, cheddar derretido, pico de gallo fresco e molho especial da casa.",
+      "price": 24.90,
+      "originalPrice": 29.90,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80",
+      "badge": "Mais Pedido",
+      "badgeColor": "gold",
+      "featured": true,
+      "serves": "1 pessoa"
+    },
+    {
+      "id": "p2",
+      "categoryId": "destaques",
+      "name": "Burrito Explosivo",
+      "description": "Burrito gigante com frango grelhado, feijão negro, arroz mexicano, queijo cheddar e pimenta chipotle.",
+      "price": 29.90,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&q=80",
+      "badge": "Top Pick",
+      "badgeColor": "gold",
+      "featured": true
+    },
+    {
+      "id": "p3",
+      "categoryId": "destaques",
+      "name": "Combo El Fuego",
+      "description": "Taco Supremo + Quesadilla Clássica + Refrigerante 350ml. A experiência mexicana completa.",
+      "price": 49.90,
+      "originalPrice": 58.70,
+      "image": "https://images.unsplash.com/photo-1551504734-5da22bfb3900?w=600&q=80",
+      "badge": "Oferta",
+      "badgeColor": "gold",
+      "featured": true,
+      "serves": "1 pessoa"
+    },
+    {
+      "id": "p4",
+      "categoryId": "combos",
+      "name": "Combo Clássico",
+      "description": "Taco Supremo + Nachos Mexicanos + Refrigerante 350ml. O sabor do México no dia a dia.",
+      "price": 39.90,
+      "originalPrice": 47.70,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80",
+      "badge": "Econômico",
+      "badgeColor": "gold",
+      "serves": "1 pessoa"
+    },
+    {
+      "id": "p5",
+      "categoryId": "combos",
+      "name": "Combo Premium",
+      "description": "Burrito Explosivo + Quesadilla de Frango + Horchata Artesanal. Indulgência total estilo México.",
+      "price": 54.90,
+      "originalPrice": 67.70,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&q=80",
+      "badge": "Premium",
+      "badgeColor": "gold",
+      "serves": "1 pessoa"
+    },
+    {
+      "id": "p6",
+      "categoryId": "combos",
+      "name": "Combo Família",
+      "description": "2 Tacos Supremos + 2 Burritos + Nachos Supreme + 4 Refrigerantes. Para curtir em família.",
+      "price": 129.90,
+      "originalPrice": 158.50,
+      "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?w=600&q=80",
+      "badge": "Família",
+      "badgeColor": "gold",
+      "serves": "4 pessoas"
+    },
+    {
+      "id": "p7",
+      "categoryId": "tacos",
+      "name": "Taco Supremo",
+      "description": "Tortilla macia, carne bovina temperada na brasa, cheddar derretido, pico de gallo fresco e molho especial da casa.",
+      "price": 24.90,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=600&q=80",
+      "badge": "Mais Pedido",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p8",
+      "categoryId": "tacos",
+      "name": "Taco Al Pastor",
+      "description": "Carne de porco marinada em achiote com abacaxi fresco, cebola roxa, coentro e molho verde artesanal.",
+      "price": 26.90,
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600&q=80",
+      "badge": "🔥 Picante",
+      "badgeColor": "orange"
+    },
+    {
+      "id": "p9",
+      "categoryId": "tacos",
+      "name": "Taco Pollo",
+      "description": "Frango grelhado ao limão, guacamole cremoso, sour cream, pimenta jalapeño e cebola caramelizada.",
+      "price": 24.90,
+      "image": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=600&q=80"
+    },
+    {
+      "id": "p10",
+      "categoryId": "tacos",
+      "name": "Taco Carnitas",
+      "description": "Carne suína desfiada, cozida lentamente em especiarias mexicanas, com salsa roja e queijo cotija.",
+      "price": 27.90,
+      "image": "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=600&q=80",
+      "badge": "Especial",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p11",
+      "categoryId": "tacos",
+      "name": "Taco Vegano",
+      "description": "Cogumelos salteados, feijão negro, abacate cremoso, pico de gallo e molho de ervas frescas.",
+      "price": 22.90,
+      "image": "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=600&q=80",
+      "badge": "Vegano",
+      "badgeColor": "white"
+    },
+    {
+      "id": "p12",
+      "categoryId": "burritos",
+      "name": "Burrito Explosivo",
+      "description": "Burrito gigante com frango grelhado, feijão negro, arroz mexicano, queijo cheddar e pimenta chipotle.",
+      "price": 29.90,
+      "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=600&q=80",
+      "badge": "Top Pick",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p13",
+      "categoryId": "burritos",
+      "name": "Burrito Carnívoro",
+      "description": "Carne bovina e frango juntos, feijão refogado, bacon artesanal, cheddar duplo e molho chipotle defumado.",
+      "price": 34.90,
+      "image": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=600&q=80",
+      "badge": "🔥 Picante",
+      "badgeColor": "orange"
+    },
+    {
+      "id": "p14",
+      "categoryId": "burritos",
+      "name": "Burrito Verde",
+      "description": "Frango grelhado, guacamole fresco, jalapeños, queijo branco e molho verde com tomatillos.",
+      "price": 29.90,
+      "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&q=80"
+    },
+    {
+      "id": "p15",
+      "categoryId": "quesadillas",
+      "name": "Quesadilla Clássica",
+      "description": "Tortilla crocante com queijo cheddar e mozzarella derretidos, pimenta jalapeño e molho da casa.",
+      "price": 22.90,
+      "image": "https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=600&q=80"
+    },
+    {
+      "id": "p16",
+      "categoryId": "quesadillas",
+      "name": "Quesadilla de Frango",
+      "description": "Frango grelhado desfiado, queijo cheddar, pimentão colorido salteado e molho chipotle cremoso.",
+      "price": 24.90,
+      "image": "https://images.unsplash.com/photo-1630514969818-94aebc3f3f84?w=600&q=80",
+      "badge": "Popular",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p17",
+      "categoryId": "nachos",
+      "name": "Nachos Mexicanos",
+      "description": "Nachos crocantes cobertos com queijo cheddar derretido, jalapeños frescos e molho especial da casa.",
+      "price": 26.90,
+      "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600&q=80",
+      "badge": "Mais Pedido",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p18",
+      "categoryId": "nachos",
+      "name": "Nachos Supreme",
+      "description": "Nachos artesanais com guacamole, sour cream, pico de gallo, carne temperada e queijo derretido.",
+      "price": 34.90,
+      "originalPrice": 39.90,
+      "image": "https://images.unsplash.com/photo-1582234372722-50d7ccc30ebd?w=600&q=80",
+      "badge": "Premium",
+      "badgeColor": "gold",
+      "serves": "2 pessoas"
+    },
+    {
+      "id": "p19",
+      "categoryId": "bebidas",
+      "name": "Horchata Artesanal",
+      "description": "Bebida tradicional mexicana de arroz com canela, baunilha e leite fresco. Refrescante. 400ml.",
+      "price": 14.90,
+      "image": "https://images.unsplash.com/photo-1566654939139-38059acaacd7?w=600&q=80",
+      "badge": "Especial",
+      "badgeColor": "gold"
+    },
+    {
+      "id": "p20",
+      "categoryId": "bebidas",
+      "name": "Água de Jamaica",
+      "description": "Chá gelado de hibisco artesanal, levemente adoçado. Rico em sabor e cor vibrante. 400ml.",
+      "price": 12.90,
+      "image": "https://images.unsplash.com/photo-1560508179-b2c9a3555b75?w=600&q=80"
+    },
+    {
+      "id": "p21",
+      "categoryId": "bebidas",
+      "name": "Refrigerante Lata",
+      "description": "Coca-Cola, Sprite ou Guaraná Antarctica. Bem gelado.",
+      "price": 7.90,
+      "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600&q=80"
+    },
+    {
+      "id": "p22",
+      "categoryId": "bebidas",
+      "name": "Suco Natural (400ml)",
+      "description": "Laranja, Limão, Maracujá ou Manga. Feito na hora, sem adição de açúcar.",
+      "price": 12.90,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=600&q=80"
+    }
+  ]
+}
